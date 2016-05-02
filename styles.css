@@ -1,5 +1,5 @@
 body {
-	background-color: #D3D3D3;
+	background-image: url("images/old-white-background.jpg");;
 }
 
 img {
@@ -18,7 +18,7 @@ h2 {
 	font-family: Georgia;
 }
 table {
-	background-image: url("images/acting-banner.jpg");
+	background-color: gray;
 }
 
 #id-1 {
