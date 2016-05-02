@@ -1,5 +1,5 @@
 body {
-	background-color: #D3D3D3;
+	background-image: url("images/old-white-background.jpg");;
 }
 
 img {
@@ -18,7 +18,7 @@ h2 {
 	font-family: Georgia;
 }
 table {
-	background-image: url("images/acting-banner.jpg");
+	background-color: gray;
 }
 
 #id-1 {
@@ -42,3 +42,19 @@ footer {
 #resume-link:visited {
 	color: green;
 }
+
+@media screen and (max-width: 450px) {
+  body {
+  	width: 95%;
+  }
+  img {
+  	width: 95%;
+  }
+  h1 {
+  	font-size: 1.5em;
+  }
+  h2 {
+  	font-size: 1.25em;
+  	margin-left: 10px;
+  }
+} 
