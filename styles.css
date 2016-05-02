@@ -42,3 +42,19 @@ footer {
 #resume-link:visited {
 	color: green;
 }
+
+@media screen and (max-width: 450px) {
+  body {
+  	width: 95%;
+  }
+  img {
+  	width: 95%;
+  }
+  h1 {
+  	font-size: 1.5em;
+  }
+  h2 {
+  	font-size: 1.25em;
+  	margin-left: 10px;
+  }
+} 
